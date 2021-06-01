@@ -1,9 +1,9 @@
 spring:
   datasource:
     driver-class-name: org.apache.phoenix.jdbc.PhoenixDriver
-    url: jdbc:phoenix:hadoop01,hadoop02,hadoop03:2181
+    url: jdbc:phoenix:hadoop001:2181
 
 mybatis:
   mapper-locations: classpath*:/mapper/**/*.xml
   configuration:
-    map-underscore-to-camel-case: true   #¿ªÆôÍÕ·åÃüÃû
+    map-underscore-to-camel-case: true
